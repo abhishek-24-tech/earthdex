@@ -1,16 +1,61 @@
-# flutter_application_1
+🌍 EarthDex – Animal Identification App
 
-A new Flutter project.
+EarthDex is an Android application that lets you identify animals by simply taking a photo. Inspired by the concept of a "Pokédex," EarthDex provides detailed information about animals, including their species name, habitat, diet, conservation status, and interesting facts.
 
-## Getting Started
+✨ Features
 
-This project is a starting point for a Flutter application.
+📸 Photo Recognition → Take or upload a photo of an animal to identify it.
 
-A few resources to get you started if this is your first Flutter project:
+🔍 AI-powered Detection → Uses machine learning models to recognize animal species.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📚 Detailed Information → Get details like:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Scientific name
+
+Common name
+
+Habitat
+
+Diet
+
+Conservation status
+
+Fun facts
+
+🌐 Offline + Online Support → Works offline with a limited dataset, and fetches more info online when connected.
+
+📱 Modern Android UI → Clean, easy-to-use interface with smooth navigation.
+
+🛠️ Tech Stack
+
+Frontend (Android) → Kotlin (Jetpack Compose / XML UI)
+
+Image Recognition → TensorFlow Lite / ML Kit (on-device ML model)
+
+Backend (Optional) → REST API for extended animal database
+
+Database → Room / SQLite for offline storage
+
+UI Components → Material Design 3
+
+🚀 Getting Started
+Prerequisites
+
+Android Studio (latest version)
+
+Android SDK 24+
+
+Gradle build system
+
+Installation
+# Clone the repository
+git clone https://github.com/<your-username>/earthdex.git
+cd earthdex
+
+# Open in Android Studio and build the project
+
+Run on Device
+
+Connect an Android phone via USB or use an emulator.
+
+Hit Run ▶️ in Android Studio.
